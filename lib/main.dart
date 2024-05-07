@@ -161,9 +161,7 @@ class _FPageState extends State<FPage> {
                   child: Image.asset('assets/logo.png')),
             ),
             SizedBox(height: MediaQuery.of(context).size.height * 0.25 / 1),
-            const CircularProgressIndicator(
-              strokeWidth: 2,
-            )
+            const CircularProgressIndicator(strokeWidth: 2)
           ]),
     );
   }
